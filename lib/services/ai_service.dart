@@ -10,7 +10,7 @@ import 'package:http/http.dart' as http;
 class AiService {
   // ⚠️ IMPORTANT: Apni Groq API key yahan dalein.
   // Free key yahan se milegi: https://console.groq.com/keys
-  static const String _apiKey = 'gsk_D86jUwNbX75ciJKvMG2GWGdyb3FYLIvvchuED6ilRmzbwG1ONRLngit add .';
+  static const String _apiKey = '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';
 
   static const String _endpoint =
       'https://api.groq.com/openai/v1/chat/completions';
