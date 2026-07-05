@@ -1,0 +1,11 @@
+<!--
+  Ye snippet apni ios/Runner/Info.plist file mein <dict> tag ke andar
+  paste karein. iOS mein mic aur speech recognition ke liye
+  "usage description" dena LAZMI hai, warna Apple app reject kar deta hai.
+-->
+
+<key>NSMicrophoneUsageDescription</key>
+<string>Is app ko aapki awaaz sunne ke liye microphone access chahiye.</string>
+
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>Is app ko aapki speech ko text mein convert karne ke liye speech recognition access chahiye.</string>

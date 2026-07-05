@@ -1,0 +1,37 @@
+name: ai_voice_assistant
+description: "A professional AI-powered Voice Assistant built with Flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons (iOS style icons)
+  cupertino_icons: ^1.0.6
+
+  # Converts microphone speech into text
+  speech_to_text: ^7.0.0
+
+  # Converts AI text response into spoken voice
+  flutter_tts: ^4.0.2
+
+  # For making HTTP requests to the AI API (Groq)
+  http: ^1.2.2
+
+  # Professional state management solution
+  provider: ^6.1.2
+
+  # Handles runtime permissions (microphone access)
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
